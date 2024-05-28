@@ -1,11 +1,6 @@
-import { Roboto_Serif } from "next/font/google";
+import { merriweather } from "./fonts";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-
-const roboto_serif = Roboto_Serif({
-  weight: "100",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata = {
   title: {
@@ -21,10 +16,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={roboto_serif.className}>
-        <main>{children}</main>
-      </body>
-    </html>
+    <>
+      <html lang="en">
+        <body className={merriweather.className}>
+          <main>{children}</main>
+        </body>
+      </html>
+    </>
   );
 }
