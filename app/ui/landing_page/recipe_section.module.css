@@ -1,0 +1,36 @@
+.main_container {
+    padding: 0%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section_logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 7rem;
+    color: #008080;
+}
+
+.recipe_section {
+    background-color: rgb(240, 249, 249);
+    position: relative;
+}
+
+.recipe_section::after {
+    position: absolute;
+    content: "";
+    height: 10%;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(#ffffff 0%, transparent 100%);
+}
+
+.main_heading {
+    padding-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}

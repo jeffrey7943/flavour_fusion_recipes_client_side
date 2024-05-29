@@ -28,12 +28,12 @@ export default function Navbar() {
             <main className={styles.nav_item}>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="/">
                     HOME
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/blogs">
                     BLOGS
                   </a>
                 </li>
